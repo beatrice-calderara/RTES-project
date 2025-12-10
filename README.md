@@ -142,7 +142,7 @@ make
 ```
 Flash the generated .uf2 to the Pico.
 
-## **2. Keyword Spotter (Python)**
+### **2. Keyword Spotter (Python)**
 
 ### **Dependencies**
 - numpy  

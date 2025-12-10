@@ -144,7 +144,7 @@ Flash the generated .uf2 to the Pico.
 
 ### **2. Keyword Spotter (Python)**
 
-### **Dependencies**
+**Dependencies**
 - numpy  
 - pytorch   
 - pyserial  

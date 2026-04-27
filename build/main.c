@@ -160,17 +160,6 @@ void vTaskOff(void *pvParameters) {
             // Release the semaphore
             xSemaphoreGive(xLedMutex);
         }
-
-        // If the buzzer is active we want to turn it off
-        /*
-        if (xSemaphoreTake(xBuzzerMutex, pdMS_TO_TICKS(50)) == pdTRUE) {
-            if (buzzer_state == true) {
-                buzzer_off(BUZZER_PIN);
-                buzzer_state = false;
-            }
-            xSemaphoreGive(xBuzzerMutex);
-        }
-        */
     }
 }
 

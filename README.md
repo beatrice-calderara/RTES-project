@@ -1,7 +1,8 @@
 # **UnMutex – Real-Time Voice-Piloted Controller**
 *A Raspberry Pi Pico + FreeRTOS + Keyword Spotting Project*
 
-<img width="589" height="347" alt="Screenshot 2026-04-27 alle 11 27 55" src="https://github.com/user-attachments/assets/0272341a-f2fa-4588-90a4-b75d307a6b87" />
+<img width="300" height="auto" alt="Screenshot 2026-04-27 alle 11 27 55" src="https://github.com/user-attachments/assets/0272341a-f2fa-4588-90a4-b75d307a6b87" />
+
 
 UnMutex is a **real-time embedded voice controller** designed to manage critical tasks by combining **audio acquisition on Raspberry Pi Pico** and **keyword-spotting AI on a host PC**.  
 The system uses a MAX4466 microphone to stream raw audio from the microcontroller to the PC, where a CNN-based KWS model detects four voice commands: **on**, **off**, **up**, **down**.  
